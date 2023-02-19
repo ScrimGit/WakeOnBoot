@@ -1,4 +1,4 @@
-# Wake-on-LAN Enabler
+# Wake-on-LAN Script (WakeOnBoot)
 
 This is a simple Python script that enables Wake-on-LAN (WoL) on a network interface and adds a systemd service to automatically enable WoL on boot. 
 
@@ -15,12 +15,12 @@ These instructions will help you run the script on your local machine and enable
 ### Installing
 
 1. Clone this repository to your local machine.
-2. Open the `wol.py` file in your favorite text editor.
+2. Open the `WakeOnBoot.py` file in your favorite text editor.
 3. Replace `<network-interface>` on line 4 with the name of the network interface you want to enable WoL on.
 2. Replace `<network-interface>` on line 13 with the name of the network interface you want to enable WoL on.
 4. Save the file.
-5. Open a terminal and navigate to the directory containing `wol.py`.
-6. Run the script by typing `sudo python3 wol.py` in the terminal.
+5. Open a terminal and navigate to the directory containing `WakeOnBoot.py`.
+6. Run the script by typing `sudo python3 WakeOnBoot.py` in the terminal.
 
 
 ## Contributing
